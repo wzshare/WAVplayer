@@ -35,14 +35,13 @@
     [playerItem addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
     self.avPlayer = [AVPlayer playerWithPlayerItem:playerItem];
     
-    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.avPlayer];
-    playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-    playerLayer.contentsScale = [UIScreen mainScreen].scale;
-    CGFloat width = self.view.bounds.size.width;
-    CGFloat height = width / 16 * 9;
-    CGFloat y = (self.view.frame.size.height - height) / 2;
-    playerLayer.frame = CGRectMake(0, y, width, height);
-    [self.view.layer addSublayer:playerLayer];
+    AVPlayerViewController *avplayerController = [[AVPlayerViewController alloc] init];
+    avplayerController.player = self.avPlayer;
+    avplayerController.videoGravity = AVLayerVideoGravityResizeAspect;
+    avplayerController.showsPlaybackControls = YES;
+    avplayerController.view.frame = self.view.bounds;
+    [self addChildViewController:avplayerController];
+    [self.view addSubview:avplayerController.view];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
