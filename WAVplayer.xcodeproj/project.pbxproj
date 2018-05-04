@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF37F439209C564C00B60A58 /* WAVplayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF37F438209C564C00B60A58 /* WAVplayerViewController.m */; };
 		BFE84776209AEAD800234417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE84775209AEAD800234417 /* AppDelegate.m */; };
 		BFE84779209AEAD800234417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE84778209AEAD800234417 /* ViewController.m */; };
 		BFE8477C209AEAD800234417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE8477A209AEAD800234417 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF37F437209C564C00B60A58 /* WAVplayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAVplayerViewController.h; sourceTree = "<group>"; };
+		BF37F438209C564C00B60A58 /* WAVplayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAVplayerViewController.m; sourceTree = "<group>"; };
 		BFE84771209AEAD800234417 /* WAVplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAVplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE84774209AEAD800234417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFE84775209AEAD800234417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				BFE8477F209AEAD900234417 /* LaunchScreen.storyboard */,
 				BFE84782209AEAD900234417 /* Info.plist */,
 				BFE84783209AEAD900234417 /* main.m */,
+				BF37F437209C564C00B60A58 /* WAVplayerViewController.h */,
+				BF37F438209C564C00B60A58 /* WAVplayerViewController.m */,
 			);
 			path = WAVplayer;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				BFE84779209AEAD800234417 /* ViewController.m in Sources */,
 				BFE84784209AEAD900234417 /* main.m in Sources */,
+				BF37F439209C564C00B60A58 /* WAVplayerViewController.m in Sources */,
 				BFE84776209AEAD800234417 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
