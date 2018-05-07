@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF37F439209C564C00B60A58 /* WAVplayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF37F438209C564C00B60A58 /* WAVplayerViewController.m */; };
+		BF37F43C209FFB7200B60A58 /* WAVLocalMovieTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF37F43B209FFB7200B60A58 /* WAVLocalMovieTableView.m */; };
 		BFE84776209AEAD800234417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE84775209AEAD800234417 /* AppDelegate.m */; };
 		BFE84779209AEAD800234417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE84778209AEAD800234417 /* ViewController.m */; };
 		BFE8477C209AEAD800234417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE8477A209AEAD800234417 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		BF37F437209C564C00B60A58 /* WAVplayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAVplayerViewController.h; sourceTree = "<group>"; };
 		BF37F438209C564C00B60A58 /* WAVplayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAVplayerViewController.m; sourceTree = "<group>"; };
+		BF37F43A209FFB7200B60A58 /* WAVLocalMovieTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAVLocalMovieTableView.h; sourceTree = "<group>"; };
+		BF37F43B209FFB7200B60A58 /* WAVLocalMovieTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAVLocalMovieTableView.m; sourceTree = "<group>"; };
 		BFE84771209AEAD800234417 /* WAVplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAVplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE84774209AEAD800234417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFE84775209AEAD800234417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				BFE84783209AEAD900234417 /* main.m */,
 				BF37F437209C564C00B60A58 /* WAVplayerViewController.h */,
 				BF37F438209C564C00B60A58 /* WAVplayerViewController.m */,
+				BF37F43A209FFB7200B60A58 /* WAVLocalMovieTableView.h */,
+				BF37F43B209FFB7200B60A58 /* WAVLocalMovieTableView.m */,
 			);
 			path = WAVplayer;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				BFE84784209AEAD900234417 /* main.m in Sources */,
 				BF37F439209C564C00B60A58 /* WAVplayerViewController.m in Sources */,
 				BFE84776209AEAD800234417 /* AppDelegate.m in Sources */,
+				BF37F43C209FFB7200B60A58 /* WAVLocalMovieTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
