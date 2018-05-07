@@ -27,16 +27,11 @@
     NSError *error = nil;
     NSArray *fileList = [[NSArray alloc] init];
     fileList = [fileManager contentsOfDirectoryAtPath:docDir error:&error];
+    
     self.localMovies = fileList;
 
     _lmTableview.dataSource = self;
     _lmTableview.delegate = self;
-    
-//    WAVplayerViewController *wavPlayer = [[WAVplayerViewController alloc] init];
-//    wavPlayer.playerItem = playerItem;
-//    [self.navigationController pushViewController:wavPlayer animated:YES];
-    
-//    [self presentViewController:wavPlayer animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
